@@ -1,6 +1,6 @@
 <template>
   <f7-page name="今日特色食譜">
-    <f7-navbar title="今日特色食譜" back-link="Back"></f7-navbar>
+    <f7-navbar title="今日特色食譜" back-link="返回"></f7-navbar>
     <f7-block>
       <h1>香烤蒜蓉奶油蝦醬意大利麵</h1>
         <img src="/assets/images/speghetti.jpg" alt="" srcset="">

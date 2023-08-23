@@ -2,6 +2,7 @@
 import HomePage from '../pages/home.vue';
 import AboutPage from '../pages/today.vue';
 import FormPage from '../pages/category.vue';
+import Privacy from '../pages/privacy.vue';
 
 
 import DynamicRoutePage from '../pages/dynamic-route.vue';
@@ -11,7 +12,22 @@ import NotFoundPage from '../pages/404.vue';
 var routes = [
   {
     path: '/',
-    component: HomePage,
+    async: function ({ router, to, resolve }) {
+
+      const params = new URLSearchParams(location.search)
+      const component = params.has('privacy') ? Privacy : HomePage
+
+      resolve(
+        {
+          component: component,
+        },
+        {
+          props: {
+            singlePageMode: true,
+          }
+        }
+      );
+    }
   },
   {
     path: '/today/',
@@ -20,6 +36,10 @@ var routes = [
   {
     path: '/category/',
     component: FormPage,
+  },
+  {
+    path: '/privacy/',
+    component: Privacy,
   },
 
 

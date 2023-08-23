@@ -1,6 +1,6 @@
 <template>
   <f7-page name="主菜食譜">
-    <f7-navbar title="主菜食譜" back-link="Back"></f7-navbar>
+    <f7-navbar title="主菜食譜" back-link="返回"></f7-navbar>
     <f7-block>
       <img src="/assets/images/category.jpg" alt="" srcset="">
       Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/photos/hrlvr2ZlUNk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
