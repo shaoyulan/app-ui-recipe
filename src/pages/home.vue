@@ -4,7 +4,7 @@
     <f7-navbar >
       <f7-nav-left>
       </f7-nav-left>
-      <f7-nav-title>食譜APP</f7-nav-title>
+      <f7-nav-title>食趣</f7-nav-title>
       <f7-nav-right>
       </f7-nav-right>
     </f7-navbar>
