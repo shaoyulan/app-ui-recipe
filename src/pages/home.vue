@@ -34,6 +34,7 @@
     <f7-list strong inset dividersIos>
       <f7-list-item link="/today/" title="當日特色食譜"></f7-list-item>
       <f7-list-item link="/category/" title="主菜食譜"></f7-list-item>
+      <f7-list-item link="/setting/" title="設定"></f7-list-item>
     </f7-list>
     <!-- <f7-block-title>政策</f7-block-title>
     <f7-list strong inset dividersIos>

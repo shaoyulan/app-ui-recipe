@@ -3,6 +3,7 @@ import HomePage from '../pages/home.vue';
 import AboutPage from '../pages/today.vue';
 import FormPage from '../pages/category.vue';
 import Privacy from '../pages/privacy.vue';
+import Setting from '../pages/setting.vue';
 
 
 import DynamicRoutePage from '../pages/dynamic-route.vue';
@@ -40,6 +41,10 @@ var routes = [
   {
     path: '/privacy/',
     component: Privacy,
+  },
+  {
+    path: '/setting/',
+    component: Setting,
   },
 
 
